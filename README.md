@@ -36,6 +36,8 @@ images you have, the longer it will take to classify.
 On the dataset, this is a calibration that can be performed at any time, that is, new images are taken for each class. So this game can be adapted
  to each situation that arises. In addition, The movements made by the computer also come from an image of the dataset of each class.
 
+![](images/Calibration.png)
+
 # Rules
 
 ---
@@ -46,6 +48,8 @@ If your previous play was rock and you lost, your next play may be paper. And th
  number is generated between 0 and 1, if this number is greater than 0.7 but less than 0.8 then the computer puts rock, if it is between 0.8 and 0.9
  the computer puts paper, and if it is between 0.9 and 1 the computer puts scissors.
 
+![](images/FirstMove.png)
+
 # References
 
 ---
@@ -55,3 +59,5 @@ If your previous play was rock and you lost, your next play may be paper. And th
 [2]  .  https://www.youtube.com/watch?v=T-0lZWYWE9Y
 
 [3]  .  https://docs.opencv.org/4.5.2/d4/dc6/tutorial_py_template_matching.html
+
+
